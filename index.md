@@ -23,23 +23,24 @@ By compatibility I mean how well two player's style of play mesh. Specifically, 
 shots, ignoring turnovers, rebounds, etc. This is not because I don't think those things matter
 for compatibility, but because I didn't have any novel modeling insights to bring there.
 
+<br/>
 My `novel` modeling insight to model shots (if you can even call it that) was to condition on
 knowing the player who is taking the shot, then estimate the location on the court (broken up into
 seven distinct areas) from whence he would shoot, then, conditional on the location, estimate the
 probability that he would make said shot. All the while, we are controlling for
 
-1) who the player is
-2) who his teammates are
-3) who the opponents (defenders) are
+1. who the player is
+2. who his teammates are
+3. who the opponents (defenders) are
 
 This allows us to learn six sets of coefficients for each player
 
-1) a player's tendency to shoot from each location on the court
-2) a player's ability to score from each location on the court
-3) a player's influence on his teammates' tendencies to shoot from each location
-4) a player's influence on his teammates' ability to score from each location
-5) a player's influence on his opponents' tendencies to shoot from each location
-6) a player's influence on his opponents' ability to score from each location
+1. a player's tendency to shoot from each location on the court
+2. a player's ability to score from each location on the court
+3. a player's influence on his teammates' tendencies to shoot from each location
+4. a player's influence on his teammates' ability to score from each location
+5. a player's influence on his opponents' tendencies to shoot from each location
+6. a player's influence on his opponents' ability to score from each location
 
 In addition, I also included positional dummies to learn positional averages for all the above
 (see poster for plots of those)
