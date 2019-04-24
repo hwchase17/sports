@@ -62,7 +62,7 @@ How did I get similarity scores from this? For a given player, I looked at which
 
 ### Part 4: Results
 
-I have uploaded a full csv of backtest results from 1980 to present here[https://github.com/hwchase17/sports/blob/master/nfl_qb_comps/backtest_results_nfl_qbs.csv]. To quickly highlight some points:
+I have uploaded a full csv of backtest results from 1980 to present [here](https://github.com/hwchase17/sports/blob/master/nfl_qb_comps/backtest_results_nfl_qbs.csv). To quickly highlight some points:
 
 Biggest misses, part 1 (Model predicted bust, actually star): Brett Farve, Matt Hasselbeck, Jeff Garcia, Randall Cunningham, Trent Green, Mark Brunell
 
